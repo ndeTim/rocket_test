@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style_media_tablet.css">
+    <script src="/script.js" defer></script>
+    <title>TestSite</title>
+</head>
+<body>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="pageMain">
+        <div class="videoBlock">
+            <iframe 
+                class="video"
+                src="https://www.youtube.com/embed/TJtLwdVf5Gk?controls=0&showinfo=0&rel=0&modestbranding=1"
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+            <button class="customPlayButton">
+                <div class="leftRectangle"></div>
+                <div class="buttonCenterDiv">Смотреть видео <img src="/img/play.svg" class="playIcon"></div>
+                <div class="rightRectangle"></div>
+            </button>
+        </div>
+        <div class="secondBlock">
+            <div class="itemCards">
+                <div class="topItemCardForTablet">
+                    <div class="itemCardBlock">
+                        <div class="peasItemCard itemCardPadding">
+                            <div class="topCard">
+                                <div class="leftTopCard">
+                                    <div class="title">Горох в стручках, 1 кг</div>
+                                    <div class="promotions displayNoneForMobile">
+                                        <div class="discount greenBackground">-29%</div>
+                                        <div class="slogan orangeBackground">Товар дня</div>
+                                    </div>
+                                </div>
+                                <div class="likeEyeBlock">
+                                    <button class="like" id="likePeas"></button>
+                                    <button class="eye"></button>
+                                </div>
+                            </div>
+                            <div class="bottomCard">
+                                <div class="promotions displayNoneForPCAndTablets">
+                                    <div class="discount greenBackground">-29%</div>
+                                    <div class="slogan orangeBackground">Товар дня</div>
+                                </div>
+                                <div class="priceRequestBlock">
+                                    <div class="price">570₽</div>
+                                    <button class="leaveARequest">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemCardBlock displayNoneForTablet marginTopForSecondItemCardBlock">
+                        <div class="blueberryItemCard itemCardPadding">
+                            <div class="topCard">
+                                <div class="leftTopCard">
+                                    <div class="title">Голубика лесная, 200 г</div>
+                                    <div class="promotions displayNoneForMobile">
+                                        <div class="discount pinkBackground">-31%</div>
+                                        <div class="slogan blueBackground">Распродажа</div>
+                                    </div>
+                                </div>
+                                <div class="likeEyeBlock">
+                                    <button class="like" id="likePeas"></button>
+                                    <button class="eye"></button>
+                                </div>
+                            </div>
+                            <div class="bottomCard">
+                                <div class="promotions displayNoneForPCAndTablets">
+                                    <div class="discount pinkBackground">-31%</div>
+                                    <div class="slogan blueBackground">Распродажа</div>
+                                </div>
+                                <div class="priceRequestBlock">
+                                    <div class="price">140₽</div>
+                                    <button class="leaveARequest">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carrotItemCard itemCardPadding">
+                            <div class="topCard">
+                                <div class="leftTopCard">
+                                    <div class="title">Морковь мытая, 1 кг</div>
+                                    <div class="promotions displayNoneForMobile displayNoneForPCAndTablets promotionsCarrot">
+                                        <div class="slogan purpleBackground secondSloganLine">Хит</div>
+                                    </div>
+                                </div>
+                                <div class="likeEyeBlock">
+                                    <button class="like"></button>
+                                    <button class="eye"></button>
+                                </div>
+                            </div>
+                            <div class="bottomCard">
+                                <div class="promotions displayNoneForPCAndTablets">
+                                    <div class="slogan purpleBackground secondSloganLine">Хит</div>
+                                </div>
+                                <div class="priceRequestBlock">
+                                    <div class="price">140₽</div>
+                                    <button class="leaveARequest">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemCardBlock lastItemCardBlock">
+                        <div class="popcornItemBlock itemCardPadding">
+                            <div class="imagePartItemCard">
+                                <div class="topImagePartPopcornItemCard">
+                                    <div class="promotions">
+                                        <div class="slogan orangeBackground">Товар дня</div>
+                                        <div class="discount greenBackground">-29%</div>
+                                    </div>
+                                    <div class="likeEyeBlock">
+                                        <button class="like"></button>
+                                        <button class="eye"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="descriptionPartItemCard">
+                                <div class="titleLastItemCardBlocks">Попкорн солёный,<br>для СВЧ-печи, 120 г</div>
+                                <div class="lastPriceRequestBlock">
+                                    <div class="lastPrice">160₽</div>
+                                    <button class="lastLeaveARequest">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="iceCreamItemBlock itemCardPadding">
+                            <div class="imagePartItemCard">
+                                <div class="topImageIceCreamPartItemCard">
+                                    <div class="promotions">
+                                        <div class="slogan purpleBackground">Хит</div>
+                                    </div>
+                                    <div class="likeEyeBlock">
+                                        <button class="like"></button>
+                                        <button class="eye"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="descriptionPartItemCard">
+                                <div class="titleLastItemCardBlocks">Эскимо с малиной,<br>150 г</div>
+                                <div class="lastPriceRequestBlock">
+                                    <div class="lastPrice">190₽</div>
+                                    <button class="lastLeaveARequest">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider-wrapper">
+                            <div class="slider">
+                                <div class="itemCardBlock sliderItemCardBlock">
+                                    <div class="popcornItemBlock itemCardPadding activeSlider">
+                                        <div class="imagePartItemCard">
+                                            <div class="topImagePartPopcornItemCard">
+                                                <div class="promotions sliderPromotions">
+                                                    <div class="slogan orangeBackground">Товар дня</div>
+                                                    <div class="discount greenBackground">-29%</div>
+                                                </div>
+                                                <div class="likeEyeBlock">
+                                                    <button class="like"></button>
+                                                    <button class="eye"></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="descriptionPartItemCard">
+                                            <div class="titleLastItemCardBlocks">Попкорн солёный,<br>для СВЧ-печи, 120 г</div>
+                                            <div class="lastPriceRequestBlock">
+                                                <div class="lastPrice">160₽</div>
+                                                <button class="lastLeaveARequest">Оставить заявку</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="itemCardBlock sliderItemCardBlock">
+                                    <div class="iceCreamItemBlock itemCardPadding">
+                                        <div class="imagePartItemCard">
+                                            <div class="topImageIceCreamPartItemCard">
+                                                <div class="promotions sliderPromotions">
+                                                    <div class="slogan purpleBackground">Хит</div>
+                                                </div>
+                                                <div class="likeEyeBlock">
+                                                    <button class="like"></button>
+                                                    <button class="eye"></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="descriptionPartItemCard">
+                                            <div class="titleLastItemCardBlocks">Эскимо с малиной,<br>150 г</div>
+                                            <div class="lastPriceRequestBlock">
+                                                <div class="lastPrice">190₽</div>
+                                                <button class="lastLeaveARequest">Оставить заявку</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dots-container">
+                                <span class="dot active-dot"></span>
+                                <span class="dot"></span>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="bottomItemCardForTablet">
+                    <div class="itemCardBlock">
+                        <div class="blueberryItemCard itemCardPadding itemCardBlock" style="width: 358px;">
+                            <div class="topCard">
+                                <div class="title">Голубика лесная, 200 г</div>
+                                <div class="likeEyeBlock">
+                                    <button class="like" id="like"></button>
+                                    <button class="eye"></button>
+                                </div>
+                            </div>
+                            <div class="bottomCard">
+                                <div class="promotions">
+                                    <div class="discount pinkBackground">-31%</div>
+                                    <div class="slogan blueBackground">Распродажа</div>
+                                </div>
+                                <div class="priceRequestBlock">
+                                    <div class="price">140₽</div>
+                                    <button class="leaveARequest">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemCardBlock">
+                        <div class="carrotItemCard itemCardPadding">
+                            <div class="topCard">
+                                <div class="title">Морковь мытая, 1 кг</div>
+                                <div class="likeEyeBlock">
+                                    <button class="like"></button>
+                                    <button class="eye"></button>
+                                </div>
+                            </div>
+                            <div class="bottomCard">
+                                <div class="promotions">
+                                    <div class="slogan purpleBackground secondSloganLine">Хит</div>
+                                </div>
+                                <div class="priceRequestBlock">
+                                    <div class="price">140₽</div>
+                                    <button class="leaveARequest">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <form novalidate enctype="multipart/form-data" name="contactForm" action="/sendMail.php" method="post" class="form" id="contactForm">
+                <div class="topPopUp">
+                    <button class="popup-close" id="closeBtn"></button>
+                    <h2 class="titleForRequest">Оставьте заявку</h2>
+                </div>
+                <div class="inputBlock">
+                    <input type="text" name="firstName" placeholder="Ваше имя *" class="firstName" required>
+                    <div class="error-message"></div>
+                    <input type="text" name="phoneNumber" placeholder="Номер телефона *" class="phoneNumber" required>
+                    <div class="error-message"></div>
+                </div>
+                <div class="bottomPopUp">
+                    <div class="agree">
+                        <input type="checkbox" class="agreeCheckBox" id="agreeCheckBox" required>
+                        <label for="agreeCheckBox" class="agreeText">Я соглашаюсь на обработку персональных данных</label>
+                    </div>
+                    <input type="submit" class="sendRequest disabled" value="Отправить" id="submitButton">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="message-container" id="message-container">
+        <div class="liked" id="liked">
+            Добавлено в избранное
+        </div>
+        <div class="removeLiked" id="removeLiked">
+            Удалено из избранного
+        </div>
+    </div>
+<script>
+    const playButton = document.querySelector('.customPlayButton');
+    const iframe = document.querySelector('.video');
+
+    playButton.addEventListener('click', () => {
+        iframe.style.display = 'block';
+        iframe.src += '&autoplay=1';
+        playButton.style.display = 'none';
+    });
+</script>
+</body>
+</html>

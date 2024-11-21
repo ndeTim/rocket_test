@@ -1,0 +1,265 @@
+@media (max-width: 1300px) {
+  .videoBlock {
+    max-width: 784px;
+    max-height: 337px;
+  }
+
+  .displayNoneForTablet {
+    display: none;
+  }
+
+  .itemCards {
+    width: 784px;
+    display: grid;
+    justify-content: space-between;
+    height: 501px;
+  }
+
+  .itemCardBlock {
+    width: 382px;
+    height: none;
+  }
+
+  .popcornItemBlock, .iceCreamItemBlock {
+    width: 181px;
+  }
+
+  .topCardTablet {
+    display: flex;
+  }
+
+  .topItemCardForTablet {
+    width: 784px;
+    height: 328px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bottomItemCardForTablet {
+    margin-top: 19px;
+    width: 784px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .carrotItemCard {
+    bottom: 0px;
+  }
+
+  .blueberryItemCard {
+    display: block;
+  }
+
+  .bottomCard {
+    width: 358px;
+  }
+}
+
+@media (max-width: 800px) {
+  .videoBlock {
+    width: 328px;
+    height: 204px;
+    margin-top: 48px;
+  }
+
+  .bottomItemCardForTablet {
+    display: none;
+  }
+
+  .itemCards {
+    display: grid;
+    width: 328px;
+    height: 1136px;
+  }
+
+  .displayNoneForTablet {
+    display: grid;
+  }
+
+  .itemCardBlock {
+    width: 328px;
+    height: none;
+  }
+
+  .topItemCardForTablet {
+    display: grid;
+  }
+
+  .promotions {
+    margin-top: 8px;
+    display: inline-flex;
+  }
+
+  .slogan {
+    margin-left: 4px;
+  }
+
+  .topItemCardForTablet {
+    width: 328px;
+  }
+
+  .displayNoneForMobile {
+    display: inline-flex;
+  }
+
+  .secondSloganLine {
+    position: relative;
+  }
+
+  .displayNoneForPCAndTablets {
+    display: none;
+  }
+
+  .priceRequestBlock {
+    width: 328px;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+  }
+
+  .bottomCard {
+    right: 0px;
+    left: 0px;
+  }
+
+  .price {
+    margin-bottom: 8px;
+  }
+
+  .marginForSecondItemCardBlock {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .carrotItemCard {
+    bottom: -10px;
+  }
+
+  .leaveARequest {
+    width: 296px;
+  }
+
+  .lastItemCardBlock {
+    display: none;
+  }
+
+  .popcornItemBlock, .iceCreamItemBlock {
+    width: 230px;
+    height: 410px;
+    display: block;
+  }
+
+  .lastPriceRequestBlock {
+    justify-content: center;
+    bottom: auto;
+    height: auto;
+    margin-top: 75px;
+  }
+
+  .topImagePartPopcornItemCard {
+    background-size: contain;
+    height: 230px;
+  }
+
+  .imagePartItemCard, .topImageIceCreamPartItemCard {
+    height: 230px;
+    background-size: contain;
+  }
+
+  .blueberryItemCard, .carrotItemCard {
+    margin-top: 16px;
+    bottom: 0px;
+  }
+
+  .sliderPromotions {
+    display: grid;
+    margin-top: 0px;
+  }
+
+  .slogan {
+    margin-left: 0px;
+  }
+
+  .titleLastItemCardBlocks {
+    font-size: 17.5px;
+  }
+
+  .lastPrice {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .promotionsCarrot {
+    display: flex;
+  }
+
+  .slider-wrapper {
+    margin-top: 32px;
+  }
+
+  .slider-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider {
+    display: flex;
+    position: relative;
+    width: 240px;
+    height: 410px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .sliderItemCardBlock {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: scale(0.8);
+  }
+
+  .activeSlider {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .dimmedSlider {
+    opacity: 0.5;
+    transform: translateX(50%);
+  }
+
+  .iceCreamItemBlock {
+    transform: translateX(-230px);
+  }
+
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #E6E6E6;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+
+    &.active-dot {
+      background-color: #1E1E1E;
+    }
+  }
+
+  .lastLeaveARequest {
+    width: 200px;
+    height: 40px;
+  }
+}
